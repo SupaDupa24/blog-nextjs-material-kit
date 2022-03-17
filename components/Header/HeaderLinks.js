@@ -41,8 +41,7 @@ export default function HeaderLinks(props) {
               <a className={classes.dropdownLink}>Videos</a>
             </Link>,
             <a
-              href="https://creativetimofficial.github.io/nextjs-material-kit/#/documentation?ref=njsmk-navbar"
-              target="_blank"
+              href="/profile"
               className={classes.dropdownLink}
             >
               Music
