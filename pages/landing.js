@@ -34,7 +34,7 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="Supa Dupa Show"
+        brand="NALA BONAE"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -43,27 +43,23 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter responsive image="/img/landing-bg.jpg">
+      <Parallax filter responsive image="/img/leafwall2.jpg">
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Supa Dupa Show</h1>
+              <h1 className={classes.title}>Nala Bonae Entertainment</h1>
               <h4>
-                Every landing page needs a small description after the big bold
-                title, that{"'"}s why we added this text here. Add here all the
-                information that can make you or your product create the first
-                impression.
+                This is my page where I do, show or talk about what I want to talk about. Stay tuned for updates weekly!
               </h4>
               <br />
               <Button
-                color="danger"
+                color="info"
                 size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
-                target="_blank"
+                href="/profile"
                 rel="noopener noreferrer"
               >
                 <i className="fas fa-play" />
-                Watch video
+                Watch videos
               </Button>
             </GridItem>
           </GridContainer>

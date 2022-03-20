@@ -51,22 +51,23 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/nextjs-material-kit-pro?ref=njsmk-navbar"
+          href="/components"
           color="transparent"
-          target="_blank"
+          
           className={classes.navLink}
         >
-          <Icon className={classes.icons}>unarchive</Icon> Upgrade to PRO
+          {/* <Icon className={classes.icons}>unarchive</Icon>  */}
+          Upcoming...
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/nextjs-material-kit?ref=njsmk-navbar"
+          href="/profile"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Download
+        {/* <CloudDownload className={classes.icons} /> */}
+           About Nala
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>

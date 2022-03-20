@@ -77,7 +77,7 @@ export default function Footer(props) {
             className={aClasses}
             target="_blank"
           >
-            Creative Tim
+            DeQuan Sanders
           </a>{" "}
           for a better web.
         </div>
