@@ -12,8 +12,9 @@ const landingPageStyle = {
     position: "relative",
     marginTop: "30px",
     minHeight: "32px",
-    color: "#FFFFFF",
+    color: "#D10000",
     textDecoration: "none",
+    textShadow: "2px 2px 2px #D10000"
   },
   subtitle: {
     fontSize: "1.313rem",
