@@ -34,7 +34,7 @@ export default function ProfilePage(props) {
     <div>
       <Header
         color="transparent"
-        brand="NALA BONAE"
+        brand="NALA "
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -52,13 +52,13 @@ export default function ProfilePage(props) {
                 <div className={classes.profile}>
                   <div>
                     <img
-                      src="/img/faces/christian.jpg"
+                      src="/img/christams.jpg"
                       alt="..."
                       className={imageClasses}
                     />
                   </div>
                   <div className={classes.name}>
-                    <h3 className={classes.title}>Christian Louboutin</h3>
+                    <h3 className={classes.title}>Nala Bonae Demery</h3>
                     <h6>DESIGNER</h6>
                     <Button justIcon link className={classes.margin5}>
                       <i className={"fab fa-twitter"} />
