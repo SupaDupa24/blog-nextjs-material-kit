@@ -55,7 +55,7 @@ export default function LandingPage(props) {
               <Button
                 color="charcoalgrey"
                 size="lg"
-                href="/profile"
+                href="/about"
                 rel="noopener noreferrer"
               >
                 <i className="fas fa-play" />
