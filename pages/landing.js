@@ -39,7 +39,7 @@ export default function LandingPage(props) {
         fixed
         changeColorOnScroll={{
           height: 400,
-          color: "white",
+          color: "danger",
         }}
         {...rest}
       />
@@ -53,7 +53,7 @@ export default function LandingPage(props) {
               </h4>
               <br />
               <Button
-                color="info"
+                color="charcoalgrey"
                 size="lg"
                 href="/profile"
                 rel="noopener noreferrer"
