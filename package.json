@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/nextjs-material-kit.git"
+    "url": "git+https://github.com/supadupa24/blog-nextjs-material-kit"
   },
   "keywords": [
     "next",
@@ -26,12 +26,12 @@
     "material-kit-react",
     "next-material-kit"
   ],
-  "author": "Creative Tim",
+  "author": "DeQuan Sanders",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/creativetimofficial/nextjs-material-kit/issues"
+    "url": "https://github.com/supadupa24/blog-nextjs-material-kit/issues"
   },
-  "homepage": "https://demos.creative-tim.com/nextjs-material-kit",
+  "homepage": "nalabonae.com",
   "dependencies": {
     "@material-ui/core": "4.11.4",
     "@material-ui/icons": "4.11.2",

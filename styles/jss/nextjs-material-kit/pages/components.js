@@ -3,7 +3,7 @@ import { container } from "styles/jss/nextjs-material-kit.js";
 const componentsStyle = {
   container,
   brand: {
-    color: "#FFFFFF",
+    color: "#D10000",
     textAlign: "left",
   },
   title: {
@@ -11,6 +11,7 @@ const componentsStyle = {
     fontWeight: "600",
     display: "inline-block",
     position: "relative",
+    color: "#D10000"
   },
   subtitle: {
     fontSize: "1.313rem",

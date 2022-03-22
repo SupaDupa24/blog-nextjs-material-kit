@@ -15,18 +15,7 @@ import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 import Parallax from "components/Parallax/Parallax.js";
 // sections for this page
-import SectionBasics from "pages-sections/Components-Sections/SectionBasics.js";
-import SectionNavbars from "pages-sections/Components-Sections/SectionNavbars.js";
-import SectionTabs from "pages-sections/Components-Sections/SectionTabs.js";
-import SectionPills from "pages-sections/Components-Sections/SectionPills.js";
-import SectionNotifications from "pages-sections/Components-Sections/SectionNotifications.js";
-import SectionTypography from "pages-sections/Components-Sections/SectionTypography.js";
-import SectionJavascript from "pages-sections/Components-Sections/SectionJavascript.js";
-import SectionCarousel from "pages-sections/Components-Sections/SectionCarousel.js";
-import SectionCompletedExamples from "pages-sections/Components-Sections/SectionCompletedExamples.js";
-import SectionLogin from "pages-sections/Components-Sections/SectionLogin.js";
-import SectionExamples from "pages-sections/Components-Sections/SectionExamples.js";
-import SectionDownload from "pages-sections/Components-Sections/SectionDownload.js";
+
 
 import styles from "styles/jss/nextjs-material-kit/pages/components.js";
 
@@ -64,7 +53,9 @@ export default function Components(props) {
       </Parallax>
 
       <div className={classNames(classes.main, classes.mainRaised)}>
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/10pQyQqkMQ1c6Qr4G3ucmR?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      <iframe src="https://open.spotify.com/embed/track/10pQyQqkMQ1c6Qr4G3ucmR?utm_source=generator" width="60%" height="380" frameBorder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      <br />
+      <iframe  src="https://open.spotify.com/embed/track/1teXmB63UM12MHIo7nDyqR?utm_source=generator" width="60%" height="380" frameBorder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
       </div>
       <Footer />
     </div>
