@@ -15,18 +15,7 @@ import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 import Parallax from "components/Parallax/Parallax.js";
 // sections for this page
-import SectionBasics from "pages-sections/Components-Sections/SectionBasics.js";
-import SectionNavbars from "pages-sections/Components-Sections/SectionNavbars.js";
-import SectionTabs from "pages-sections/Components-Sections/SectionTabs.js";
-import SectionPills from "pages-sections/Components-Sections/SectionPills.js";
-import SectionNotifications from "pages-sections/Components-Sections/SectionNotifications.js";
-import SectionTypography from "pages-sections/Components-Sections/SectionTypography.js";
-import SectionJavascript from "pages-sections/Components-Sections/SectionJavascript.js";
-import SectionCarousel from "pages-sections/Components-Sections/SectionCarousel.js";
-import SectionCompletedExamples from "pages-sections/Components-Sections/SectionCompletedExamples.js";
-import SectionLogin from "pages-sections/Components-Sections/SectionLogin.js";
-import SectionExamples from "pages-sections/Components-Sections/SectionExamples.js";
-import SectionDownload from "pages-sections/Components-Sections/SectionDownload.js";
+
 
 import styles from "styles/jss/nextjs-material-kit/pages/components.js";
 
@@ -62,15 +51,18 @@ export default function Components(props) {
           </GridContainer>
         </div>
       </Parallax>
-
       <div className={classNames(classes.main, classes.mainRaised)}>
-      <iframe className={classes.title} width="640" height="360" src="https://www.youtube.com/embed/_1izTShmbb4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <br />
-      <iframe className={classes.title} width="628" height="352" src="https://www.youtube.com/embed/LcGtPmLL76k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <br />
-      <iframe className={classes.title} width="640" height="360" src="https://www.youtube.com/embed/PxThlzrS1VI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+        <div className={classes.container}>
+        <iframe className={classes.title} width="640" height="360" src="https://www.youtube.com/embed/_1izTShmbb4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br />
+        <iframe className={classes.title} width="628" height="352" src="https://www.youtube.com/embed/LcGtPmLL76k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br />
+        <iframe className={classes.title} width="640" height="360" src="https://www.youtube.com/embed/PxThlzrS1VI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
       </div>
+     
+      
+     
       <Footer />
     </div>
   );
