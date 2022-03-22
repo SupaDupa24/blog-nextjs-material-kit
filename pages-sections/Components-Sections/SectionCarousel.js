@@ -22,7 +22,7 @@ export default function SectionCarousel() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
   };
   return (
     <div className={classes.section}>
@@ -33,42 +33,41 @@ export default function SectionCarousel() {
               <Carousel {...settings}>
                 <div>
                   <img
-                    src="/img/bg.jpg"
+                    src="/img/nala/magazine.jpg"
                     alt="First slide"
                     className="slick-image"
                   />
-                  <div className="slick-caption">
+                  {/* <div className="slick-caption">
                     <h4>
-                      <LocationOn className="slick-icons" />
-                      Yellowstone National Park, United States
+                      Dallas Magazine
                     </h4>
-                  </div>
+                  </div> */}
                 </div>
                 <div>
                   <img
-                    src="/img/bg2.jpg"
+                    src="/img/nala/recent6.jpg"
                     alt="Second slide"
                     className="slick-image"
                   />
-                  <div className="slick-caption">
+                  {/* <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
                       Somewhere Beyond, United States
                     </h4>
-                  </div>
+                  </div> */}
                 </div>
                 <div>
                   <img
-                    src="/img/bg3.jpg"
+                    src="/img/nala/nala9.jpg"
                     alt="Third slide"
                     className="slick-image"
                   />
-                  <div className="slick-caption">
+                  {/* <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
                       Yellowstone National Park, United States
                     </h4>
-                  </div>
+                  </div> */}
                 </div>
               </Carousel>
             </Card>

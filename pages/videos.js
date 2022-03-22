@@ -65,6 +65,11 @@ export default function Components(props) {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
       <iframe className={classes.title} width="640" height="360" src="https://www.youtube.com/embed/_1izTShmbb4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br />
+      <iframe className={classes.title} width="628" height="352" src="https://www.youtube.com/embed/LcGtPmLL76k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br />
+      <iframe className={classes.title} width="640" height="360" src="https://www.youtube.com/embed/PxThlzrS1VI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
       </div>
       <Footer />
     </div>

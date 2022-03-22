@@ -18,9 +18,12 @@ import Parallax from "components/Parallax/Parallax.js";
 import styles from "styles/jss/nextjs-material-kit/pages/landingPage.js";
 
 // Sections for this page
-import ProductSection from "pages-sections/LandingPage-Sections/ProductSection.js";
-import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
-import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
+// import ProductSection from "pages-sections/LandingPage-Sections/ProductSection.js";
+// import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
+// import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
+import SectionCarousel from "pages-sections/Components-Sections/SectionCarousel.js";
+
+
 
 const dashboardRoutes = [];
 
@@ -67,9 +70,10 @@ export default function LandingPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-          <ProductSection />
+        <SectionCarousel />
+          {/* <ProductSection />
           <TeamSection />
-          <WorkSection />
+          <WorkSection /> */}
         </div>
       </div>
       <Footer />
