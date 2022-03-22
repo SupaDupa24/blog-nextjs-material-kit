@@ -53,9 +53,9 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>NextJS Material Kit.</h1>
+                <h1 className={classes.title}>Music</h1>
                 <h3 className={classes.subtitle}>
-                  A Badass Material Kit based on Material-UI and NextJS.
+                  Music subtitle here....
                 </h3>
               </div>
             </GridItem>
@@ -64,27 +64,7 @@ export default function Components(props) {
       </Parallax>
 
       <div className={classNames(classes.main, classes.mainRaised)}>
-        <SectionBasics />
-        <SectionNavbars />
-        <SectionTabs />
-        <SectionPills />
-        <SectionNotifications />
-        <SectionTypography />
-        <SectionJavascript />
-        <SectionCarousel />
-        <SectionCompletedExamples />
-        <SectionLogin />
-        <GridItem md={12} className={classes.textCenter}>
-          <Link href="/login">
-            <a className={classes.link}>
-              <Button color="primary" size="lg" simple>
-                View Login Page
-              </Button>
-            </a>
-          </Link>
-        </GridItem>
-        <SectionExamples />
-        <SectionDownload />
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/10pQyQqkMQ1c6Qr4G3ucmR?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
       </div>
       <Footer />
     </div>
