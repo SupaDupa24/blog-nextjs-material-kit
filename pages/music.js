@@ -53,9 +53,9 @@ export default function Components(props) {
       </Parallax>
 
       <div className={classNames(classes.main, classes.mainRaised)}>
-      <iframe src="https://open.spotify.com/embed/track/10pQyQqkMQ1c6Qr4G3ucmR?utm_source=generator" width="60%" height="380" frameBorder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      <iframe src="https://open.spotify.com/embed/track/10pQyQqkMQ1c6Qr4G3ucmR?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
       <br />
-      <iframe  src="https://open.spotify.com/embed/track/1teXmB63UM12MHIo7nDyqR?utm_source=generator" width="60%" height="380" frameBorder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      <iframe  src="https://open.spotify.com/embed/track/1teXmB63UM12MHIo7nDyqR?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
       </div>
       <Footer />
     </div>

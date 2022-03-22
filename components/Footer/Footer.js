@@ -60,7 +60,7 @@ export default function Footer(props) {
             </ListItem> */}
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/license?ref=njsmk-footer"
+                href="#pablo"
                 className={classes.block}
                 target="_blank"
               >
