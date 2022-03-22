@@ -34,7 +34,7 @@ export default function ProfilePage(props) {
     <div>
       <Header
         color="transparent"
-        brand="NALA "
+        brand="NALA BONAE"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -59,7 +59,7 @@ export default function ProfilePage(props) {
                   </div>
                   <div className={classes.name}>
                     <h3 className={classes.title}>Nala Bonae Demery</h3>
-                    <h6>DESIGNER</h6>
+                    <h6>ARTIST</h6>
                     <Button justIcon link className={classes.margin5}>
                       <i className={"fab fa-twitter"} />
                     </Button>
@@ -75,10 +75,7 @@ export default function ProfilePage(props) {
             </GridContainer>
             <div className={classes.description}>
               <p>
-                An artist of considerable range, Chet Faker — the name taken by
-                Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
-                and records all of his own music, giving it a warm, intimate
-                feel with a solid groove structure.{" "}
+              Nala Bonae is A Singer/Songwriter/Producer/Dancer/Choreographer/Actor located in Dallas,Tx with the combination of sounds such as, Rock,Pop,Funk,Soul,Dance .Nala Bonae has Opened up for Multiple Artist/Shows ,just to name a few…Chris Brown,Monica,Bryson Tiller, Wendy Williams Show,Kim Burrell,Dawn Richard,Kizz Daniel,B2K Millennium Tour,American Crime “ABC”,etc. Nala Bonae has been performing all over the world since the age of Four. With her Powerful voice and her Powerhouse Dance moves,her creativity/Fashion/Visuals, she’s definitely the Definition of a Rockstar..{" "}
               </p>
             </div>
             <GridContainer justify="center">
@@ -95,24 +92,24 @@ export default function ProfilePage(props) {
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src="/img/examples/studio-1.jpg"
+                              src="/img/nala/noboys.jpg"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src="/img/examples/studio-2.jpg"
+                              src="/img/nala/nala1.jpg"
                               className={navImageClasses}
                             />
                           </GridItem>
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src="/img/examples/studio-5.jpg"
+                              src="/img/nala/recent1.jpg"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src="/img/examples/studio-4.jpg"
+                              src="/img/nala/quincy/bonae1.jpg"
                               className={navImageClasses}
                             />
                           </GridItem>
@@ -127,29 +124,29 @@ export default function ProfilePage(props) {
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src="/img/examples/olu-eletu.jpg"
+                              src="/img/nala/perform.jpg"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src="/img/examples/clem-onojeghuo.jpg"
+                              src="/img/nala/nala10.jpg"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src="/img/examples/cynthia-del-rio.jpg"
+                              src="/img/nala/stage.jpg"
                               className={navImageClasses}
                             />
                           </GridItem>
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src="/img/examples/mariya-georgieva.jpg"
+                              src="/img/nala/juneteenthsolo.jpg"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src="/img/examples/clem-onojegaw.jpg"
+                              src="/img/nala/juneteenthgroup.jpg"
                               className={navImageClasses}
                             />
                           </GridItem>
@@ -164,29 +161,29 @@ export default function ProfilePage(props) {
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src="/img/examples/mariya-georgieva.jpg"
+                              src="/img/nala/recent6.jpg"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src="/img/examples/studio-3.jpg"
+                              src="/img/nala/recent5.jpg"
                               className={navImageClasses}
                             />
                           </GridItem>
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src="/img/examples/clem-onojeghuo.jpg"
+                              src="/img/nala/recent4.jpg"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src="/img/examples/olu-eletu.jpg"
+                              src="/img/nala/recent3.jpg"
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src="/img/examples/studio-1.jpg"
+                              src="/img/nala/recent2.jpg"
                               className={navImageClasses}
                             />
                           </GridItem>

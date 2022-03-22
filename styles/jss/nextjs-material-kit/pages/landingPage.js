@@ -14,7 +14,7 @@ const landingPageStyle = {
     minHeight: "32px",
     color: "#D10000",
     textDecoration: "none",
-    textShadow: "2px 2px 2px #D10000",
+   // textShadow: "2px 2px 2px #D10000",
     fontFamily: "'Neonderthaw', cursive"
   },
   subtitle: {
