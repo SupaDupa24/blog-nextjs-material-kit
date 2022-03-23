@@ -20,7 +20,7 @@ import styles from "styles/jss/nextjs-material-kit/pages/landingPage.js";
 // Sections for this page
 // import ProductSection from "pages-sections/LandingPage-Sections/ProductSection.js";
 // import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
-// import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
+import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
 import SectionCarousel from "pages-sections/Components-Sections/SectionCarousel.js";
 
 
@@ -72,8 +72,8 @@ export default function LandingPage(props) {
         <div className={classes.container}>
         <SectionCarousel />
           {/* <ProductSection />
-          <TeamSection />
-          <WorkSection /> */}
+          <TeamSection /> */}
+          <WorkSection /> 
         </div>
       </div>
       <Footer />

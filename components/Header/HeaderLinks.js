@@ -73,7 +73,7 @@ export default function HeaderLinks(props) {
           className={classes.navLink}
         >
         {/* <CloudDownload className={classes.icons} /> */}
-           About Nala
+           Contact Nala
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
