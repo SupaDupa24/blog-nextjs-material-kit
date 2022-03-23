@@ -9,6 +9,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import CustomInput from "components/CustomInput/CustomInput.js";
 import Button from "components/CustomButtons/Button.js";
+import { useForm, ValidationError } from '@formspree/react';
 
 import styles from "styles/jss/nextjs-material-kit/pages/landingPageSections/workStyle.js";
 
@@ -16,6 +17,10 @@ const useStyles = makeStyles(styles);
 
 export default function WorkSection() {
   const classes = useStyles();
+  const [state, handleSubmit] = useForm("xqknlvne");
+  if (state.succeeded) {
+      return <p>Thanks for your query!</p>;
+  }
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
@@ -27,7 +32,7 @@ export default function WorkSection() {
             collaboration. We will responde get back to you in a couple of
             hours.
           </h4>
-          <form>
+          <form onSubmit={handleSubmit}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
                 <CustomInput
@@ -42,6 +47,8 @@ export default function WorkSection() {
                 <CustomInput
                   labelText="Your Email"
                   id="email"
+                  type="email" 
+                  name="email"
                   formControlProps={{
                     fullWidth: true,
                   }}
@@ -50,6 +57,7 @@ export default function WorkSection() {
               <CustomInput
                 labelText="Your Message"
                 id="message"
+                name="message"
                 formControlProps={{
                   fullWidth: true,
                   className: classes.textArea,
@@ -59,8 +67,18 @@ export default function WorkSection() {
                   rows: 5,
                 }}
               />
+              <ValidationError 
+                                prefix="Email" 
+                                field="email"
+                                errors={state.errors}
+                             />
               <GridItem xs={12} sm={12} md={4} className={classes.textCenter}>
-                <Button color="danger">Send Message</Button>
+              <ValidationError 
+                                prefix="Message" 
+                                field="message"
+                                errors={state.errors}
+                            />
+                <Button type="submit" disabled={state.submitting} color="danger">Send Message</Button>
               </GridItem>
             </GridContainer>
           </form>
