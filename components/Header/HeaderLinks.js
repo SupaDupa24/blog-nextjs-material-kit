@@ -46,6 +46,12 @@ export default function HeaderLinks(props) {
             >
               Music
             </a>,
+            <a
+            href="/gallery"
+            className={classes.dropdownLink}
+          >
+            Gallery
+          </a>,
           ]}
         />
       </ListItem>
