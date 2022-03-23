@@ -42,7 +42,7 @@ export default function LandingPage(props) {
         fixed
         changeColorOnScroll={{
           height: 400,
-          color: "danger",
+          color: "rose",
         }}
         {...rest}
       />
@@ -72,8 +72,16 @@ export default function LandingPage(props) {
         <div className={classes.container}>
         <SectionCarousel />
           {/* <ProductSection />
-          <TeamSection /> */}
-          <WorkSection /> 
+          <TeamSection /> 
+          <WorkSection /> */}
+          <GridContainer justify="center">
+            <GridItem xs={12} sm={12} md={6}>
+              <Button color="rose">
+                <a href="https://us8.list-manage.com/contact-form?u=4eaa505092469f1d67a0b3846&form_id=59f4601bdf90e1232237b5ebba89125f"> Thank</a>
+              </Button>
+            </GridItem>
+
+          </GridContainer>
         </div>
       </div>
       <Footer />
