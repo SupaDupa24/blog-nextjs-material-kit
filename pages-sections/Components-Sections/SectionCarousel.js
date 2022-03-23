@@ -72,6 +72,7 @@ export default function SectionCarousel() {
               </Carousel>
             </Card>
           </GridItem>
+          
         </GridContainer>
       </div>
     </div>

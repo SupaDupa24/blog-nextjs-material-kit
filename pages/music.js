@@ -33,7 +33,7 @@ export default function Components(props) {
         color="transparent"
         changeColorOnScroll={{
           height: 400,
-          color: "rose",
+          color: "danger",
         }}
         {...rest}
       />
