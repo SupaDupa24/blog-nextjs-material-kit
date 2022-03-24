@@ -26,7 +26,7 @@ export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
     <List className={classes.list}>
-      <ListItem className={classes.listItem}>
+      {/* <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
           navDropdown
@@ -36,24 +36,37 @@ export default function HeaderLinks(props) {
             color: "transparent",
           }}
           buttonIcon={Apps}
-          dropdownList={[
-            <Link href="/videos">
-              <a className={classes.dropdownLink}>Videos</a>
-            </Link>,
-            <a
-              href="/music"
-              className={classes.dropdownLink}
-            >
-              Music
-            </a>,
-            <a
-            href="/gallery"
-            className={classes.dropdownLink}
-          >
-            Gallery
-          </a>,
-          ]}
-        />
+          dropdownList={[ */}
+              <ListItem className={classes.listItem}>
+        <Button
+          href="/videos"
+          color="transparent"
+          
+          className={classes.navLink}
+        >
+          {/* <Icon className={classes.icons}>unarchive</Icon>  */}
+          Videos
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          href="/music"
+          color="transparent"
+          className={classes.navLink}
+        >
+        {/* <CloudDownload className={classes.icons} /> */}
+           Music
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          href="/gallery"
+          color="transparent"
+          className={classes.navLink}
+        >
+        {/* <CloudDownload className={classes.icons} /> */}
+           Gallery
+        </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
