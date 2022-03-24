@@ -26,7 +26,7 @@ export default function ProfilePage(props) {
   const { ...rest } = props;
   const imageClasses = classNames(
     classes.imgRaised,
-    classes.imgRoundedCircle,
+    classes.imgRounded,
     classes.imgFluid
   );
   const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
@@ -52,7 +52,7 @@ export default function ProfilePage(props) {
                 <div className={classes.profile}>
                   <div>
                     <img
-                      src="/img/christams.jpg"
+                      src="/img/nala/quincy1/red.photo.png"
                       alt="..."
                       className={imageClasses}
                     />
