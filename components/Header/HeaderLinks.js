@@ -37,7 +37,7 @@ export default function HeaderLinks(props) {
           }}
           buttonIcon={Apps}
           dropdownList={[ */}
-              <ListItem className={classes.listItem}>
+      <ListItem className={classes.listItem}>
         <Button
           href="/videos"
           color="transparent"
