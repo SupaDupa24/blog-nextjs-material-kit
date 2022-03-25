@@ -18,6 +18,9 @@ const componentsStyle = {
     maxWidth: "510px",
     margin: "10px 0 0",
   },
+  h1:{
+    color: "#D10000"
+  },
   main: {
     background: "#000000",
     position: "relative",
