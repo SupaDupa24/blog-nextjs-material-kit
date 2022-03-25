@@ -15,7 +15,8 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import NavPills from "components/NavPills/NavPills.js";
-import Parallax from "components/Parallax/Parallax.js";
+//import Parallax from "components/Parallax/Parallax.js";
+import SectionCarousel from "../pages-sections/Components-Sections/SectionCarousel";
 
 import styles from "styles/jss/nextjs-material-kit/pages/profilePage.js";
 
@@ -43,7 +44,8 @@ export default function ProfilePage(props) {
         }}
         {...rest}
       />
-      <Parallax small filter image="/img/leafwall2.jpg" />
+     {/* <Parallax small filter image="/img/leafwall2.jpg" /> */}
+     <SectionCarousel />
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div>
           <div className={classes.container}>

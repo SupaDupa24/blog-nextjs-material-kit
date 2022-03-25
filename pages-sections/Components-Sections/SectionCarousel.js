@@ -33,7 +33,7 @@ export default function SectionCarousel() {
               <Carousel {...settings}>
                 <div>
                   <img
-                    src="/img/nala/magazine.jpg"
+                    src="/img/nala/quincy1/nba.silver.4.jpg"
                     alt="First slide"
                     className="slick-image"
                   />
@@ -45,34 +45,45 @@ export default function SectionCarousel() {
                 </div>
                 <div>
                   <img
-                    src="/img/nala/recent6.jpg"
+                    src="/img/nala/quincy1/quincy1.jpg"
                     alt="Second slide"
                     className="slick-image"
                   />
-                  {/* <div className="slick-caption">
-                    <h4>
-                      <LocationOn className="slick-icons" />
-                      Somewhere Beyond, United States
-                    </h4>
-                  </div> */}
+                 
                 </div>
                 <div>
                   <img
-                    src="/img/nala/nala9.jpg"
+                    src="/img/nala/quincy1/quincy2.jpg"
                     alt="Third slide"
                     className="slick-image"
                   />
+                  </div>
+                  <div>
+                    <img
+                      src="/img/nala/quincy1/quincy3.jpg"
+                      alt="Fourth slide"
+                      className="slick-image"
+                    />
+                 
+                  </div>
+                <div>
+                  <img
+                    src="/img/nala/quincy1/quincy4.jpg"
+                    alt="Fifth slide"
+                    className="slick-image"
+                  />
+                 
+                </div>
                   {/* <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
                       Yellowstone National Park, United States
                     </h4>
                   </div> */}
-                </div>
+                
               </Carousel>
             </Card>
           </GridItem>
-          
         </GridContainer>
       </div>
     </div>
