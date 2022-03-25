@@ -68,7 +68,7 @@ export default function SectionCarousel() {
                   </div>
                 <div>
                   <img
-                    src="/img/nala/quincy1/quincy4.JPG"
+                    src="/img/nala/quincy1/quincy4.jpg"
                     alt="Fifth slide"
                     className="slick-image"
                   />
