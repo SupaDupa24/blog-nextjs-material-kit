@@ -62,13 +62,13 @@ export default function ProfilePage(props) {
                   <div className={classes.name}>
                     <h3 className={classes.title}>Nala Bonae Demery</h3>
                     <h6>ARTIST</h6>
-                    <Button justIcon link className={classes.margin5}>
+                    <Button href="https://twitter.com/BonaeNala" justIcon link className={classes.margin5}>
                       <i className={"fab fa-twitter"} />
                     </Button>
-                    <Button justIcon link className={classes.margin5}>
+                    <Button href="https://www.instagram.com/nalabonae/" justIcon link className={classes.margin5}>
                       <i className={"fab fa-instagram"} />
                     </Button>
-                    <Button justIcon link className={classes.margin5}>
+                    <Button href="https://www.facebook.com/Mutt.Baby" justIcon link className={classes.margin5}>
                       <i className={"fab fa-facebook"} />
                     </Button>
                   </div>
@@ -85,7 +85,7 @@ export default function ProfilePage(props) {
               <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
                 <NavPills
                   alignCenter
-                  color="primary"
+                  color="danger"
                   tabs={[
                     {
                       tabButton: "Studio",
