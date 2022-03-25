@@ -45,7 +45,7 @@ export default function SectionCarousel() {
                 </div>
                 <div>
                   <img
-                    src="/img/nala/quincy1/quincy1.jpg"
+                    src="/img/nala/quincy1/quincy1.JPG"
                     alt="Second slide"
                     className="slick-image"
                   />
@@ -53,14 +53,14 @@ export default function SectionCarousel() {
                 </div>
                 <div>
                   <img
-                    src="/img/nala/quincy1/quincy2.jpg"
+                    src="/img/nala/quincy1/quincy2.JPG"
                     alt="Third slide"
                     className="slick-image"
                   />
                   </div>
                   <div>
                     <img
-                      src="/img/nala/quincy1/quincy3.jpg"
+                      src="/img/nala/quincy1/quincy3.JPG"
                       alt="Fourth slide"
                       className="slick-image"
                     />
@@ -68,7 +68,7 @@ export default function SectionCarousel() {
                   </div>
                 <div>
                   <img
-                    src="/img/nala/quincy1/quincy4.jpg"
+                    src="/img/nala/quincy1/quincy4.JPG"
                     alt="Fifth slide"
                     className="slick-image"
                   />
