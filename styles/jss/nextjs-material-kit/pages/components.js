@@ -11,20 +11,22 @@ const componentsStyle = {
     fontWeight: "600",
     display: "inline-block",
     position: "relative",
-    color: "#D10000"
+    color: "#D10000",
   },
   subtitle: {
     fontSize: "1.313rem",
     maxWidth: "510px",
     margin: "10px 0 0",
+    color: "#D10000",
   },
   h1:{
-    color: "#D10000"
+    color: "#D10000",
   },
   main: {
     background: "#000000",
     position: "relative",
     zIndex: "3",
+    color: "#D10000",
   },
   mainRaised: {
     margin: "-60px 30px 0px",
