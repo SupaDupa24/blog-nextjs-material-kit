@@ -1,7 +1,7 @@
 {
-  "name": "next-material-kit",
+  "name": "NalaBonaeEntertainment",
   "version": "1.2.0",
-  "description": "NextJS Version of Material Kit React by Creative Tim (https://creative-tim.com)",
+  "description": "Nala Bonae Entertainment's Website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

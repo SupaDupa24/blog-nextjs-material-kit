@@ -68,17 +68,16 @@ export default function HeaderLinks(props) {
            Gallery
         </Button>
       </ListItem>
-      <ListItem className={classes.listItem}>
+      {/* <ListItem className={classes.listItem}>
         <Button
           href="/components"
           color="transparent"
           
           className={classes.navLink}
         >
-          {/* <Icon className={classes.icons}>unarchive</Icon>  */}
           Upcoming...
         </Button>
-      </ListItem>
+      </ListItem> */}
       <ListItem className={classes.listItem}>
         <Button
           href="/contact"

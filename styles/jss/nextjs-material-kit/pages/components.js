@@ -12,6 +12,7 @@ const componentsStyle = {
     display: "inline-block",
     position: "relative",
     color: "#D10000",
+    fontFamily: 'Six Caps'
   },
   subtitle: {
     fontSize: "1.313rem",
@@ -21,6 +22,7 @@ const componentsStyle = {
   },
   h1:{
     color: "#D10000",
+    fontFamily: 'Six Caps'
   },
   main: {
     background: "#000000",

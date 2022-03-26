@@ -43,7 +43,8 @@ const profilePageStyle = {
     marginTop: "30px",
     minHeight: "32px",
     textDecoration: "none",
-    fontFamily: 'Six Caps'
+    fontFamily: 'Six Caps',
+    fontSize: "x-large"
     
   },
   socials: {

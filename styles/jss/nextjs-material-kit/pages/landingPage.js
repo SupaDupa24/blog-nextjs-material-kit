@@ -17,6 +17,12 @@ const landingPageStyle = {
     fontFamily: "'Neonderthaw', cursive",
     animation: "glow 1s ease-in-out infinite alternate"
   },
+  button: {
+    display: "flex",
+    justifyContent: "center",
+    textDecoration: "none",
+    color:"white"
+  },
 
   // @keyframes title {
   //   from {
