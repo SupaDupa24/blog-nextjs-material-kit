@@ -44,7 +44,7 @@ Router.events.on("routeChangeError", () => {
 
 export default class MyApp extends App {
   componentDidMount() {
-    let comment = document.createComment(
+    let comment = document.createComment(`created by DeQuan Sanders`
 
 
 );
