@@ -60,7 +60,7 @@ export default function ProfilePage(props) {
                     />
                   </div>
                   <div className={classes.name}>
-                    <h3 className={classes.title}>Nala Bonae Demery</h3>
+                    <h3 className={classes.title}>Nala Bonae</h3>
                     <h6>ARTIST</h6>
                     <Button href="https://twitter.com/BonaeNala" justIcon link className={classes.margin5}>
                       <i className={"fab fa-twitter"} />
