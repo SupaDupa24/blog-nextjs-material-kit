@@ -12,6 +12,7 @@ const profilePageStyle = {
       margin: "0 auto",
       transform: "translate3d(0, -50%, 0)",
       fontFamily: 'Six Caps'
+      
     },
   },
   description: {
@@ -44,7 +45,7 @@ const profilePageStyle = {
     minHeight: "32px",
     textDecoration: "none",
     fontFamily: 'Six Caps',
-    fontSize: "x-large"
+    fontSize: "8em"
     
   },
   socials: {
