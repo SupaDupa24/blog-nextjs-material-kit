@@ -44,7 +44,7 @@ export default function Components(props) {
               <div className={classes.brand}>
                 <h1 className={classes.title}>Music</h1>
                 <h3 className={classes.subtitle}>
-                  Music subtitle here....
+                  New Releases....
                 </h3>
               </div>
             </GridItem>
