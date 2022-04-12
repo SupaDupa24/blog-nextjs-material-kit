@@ -184,9 +184,30 @@ export default function ProfilePage(props) {
                               src="/img/nala/recent3.jpg"
                               className={navImageClasses}
                             />
+                            
+                            
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src="/img/nala/recent2.jpg"
+                              src="/img/nala/quincy2/recent2.jpg"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="/img/nala/quincy2/fav1.jpg"
+                              className={navImageClasses}
+                            />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={4}>
+                            <img
+                              alt="..."
+                              src="/img/nala/quincy2/fav2.jpg"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="/img/nala/quincy2/fav3.jpg"
                               className={navImageClasses}
                             />
                           </GridItem>
