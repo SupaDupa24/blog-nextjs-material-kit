@@ -24,6 +24,7 @@ const useStyles = makeStyles(styles);
 export default function Components(props) {
   const classes = useStyles();
   const { ...rest } = props;
+  const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
   return (
     <div>
       <Header
@@ -42,9 +43,9 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>Music</h1>
+                <h1 className={classes.title}>Gallery</h1>
                 <h3 className={classes.subtitle}>
-                  Music subtitle here....
+                  ...
                 </h3>
               </div>
             </GridItem>
@@ -54,9 +55,46 @@ export default function Components(props) {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-          <iframe src="https://open.spotify.com/embed/track/10pQyQqkMQ1c6Qr4G3ucmR?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-          <br />
-          <iframe  src="https://open.spotify.com/embed/track/1teXmB63UM12MHIo7nDyqR?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        {/* <GridContainer justify="center">
+          <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}> */}
+          <div className={classes.img}>
+            <img  alt="..."
+                  src="/img/nala/recent3.jpg"
+                  className={navImageClasses}
+                  width="100%" />
+            <img  alt="..."
+                  src="/img/nala/recent4.jpg"
+                  className={navImageClasses}
+                  width="100%" />
+          {/* </GridItem>
+          <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}> */}
+            <img  alt="..."
+                  src="/img/nala/recent5.jpg"
+                  className={navImageClasses}
+                  width="100%" />
+            <img  alt="..."
+                  src="/img/nala/recent6.jpg"
+                  className={navImageClasses}
+                  width="100%" />
+            <img  alt="..."
+                  src="/img/nala/quincy2/dark1.jpg"
+                  className={navImageClasses}
+                  width="100%" />
+            <img  alt="..."
+                  src="/img/nala/quincy2/dark2.jpg"
+                  className={navImageClasses}
+                  width="100%" />
+            <img  alt="..."
+                  src="/img/nala/quincy2/dark3.jpg"
+                  className={navImageClasses}
+                  width="100%" />
+            <img  alt="..."
+                  src="/img/nala/quincy2/dark4.jpg"
+                  className={navImageClasses}
+                  width="100%" />
+          </div>
+          {/* </GridItem>
+        </GridContainer> */}
         </div>
       </div>
       <Footer />

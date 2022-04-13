@@ -161,7 +161,7 @@ export default function ProfilePage(props) {
                       tabIcon: Favorite,
                       tabContent: (
                         <GridContainer justify="center">
-                          <GridItem xs={12} sm={12} md={4}>
+                          {/* <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
                               src="/img/nala/recent6.jpg"
@@ -186,7 +186,7 @@ export default function ProfilePage(props) {
                             />
                             
                             
-                          </GridItem>
+                          </GridItem> */}
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."

@@ -14,11 +14,18 @@ const componentsStyle = {
     color: "#D10000",
     fontFamily: 'Six Caps'
   },
+  img:{
+    padding: "2em"
+  },
+  navImageClasses:{
+    padding: "2em"
+  },
   subtitle: {
-    fontSize: "1.313rem",
+    fontSize: "3em",
     maxWidth: "510px",
     margin: "10px 0 0",
     color: "#D10000",
+    fontFamily: 'Six Caps'
   },
   h1:{
     color: "#D10000",
