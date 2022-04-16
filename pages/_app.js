@@ -4,6 +4,7 @@ import App from "next/app";
 import Head from "next/head";
 import Router from "next/router";
 
+
 import PageChange from "components/PageChange/PageChange.js";
 
 import "styles/scss/nextjs-material-kit.scss?v=1.2.0";
@@ -52,6 +53,7 @@ export default class MyApp extends App {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
+           
           <title>Nala Bonae Entertainment</title>
         </Head>
         <Component {...pageProps} />
