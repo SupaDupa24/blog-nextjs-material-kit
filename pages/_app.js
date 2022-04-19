@@ -26,6 +26,8 @@ Router.events.on("routeChangeError", () => {
   document.body.classList.remove("body-page-transition");
 });
 
+
+
 export default class MyApp extends App {
   componentDidMount() {
     let comment = document.createComment(`created by DeQuan Sanders`

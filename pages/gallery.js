@@ -45,7 +45,7 @@ export default function Components(props) {
               <div className={classes.brand}>
                 <h1 className={classes.title}>Gallery</h1>
                 <h3 className={classes.subtitle}>
-                  ...
+                  Photos
                 </h3>
               </div>
             </GridItem>
@@ -62,32 +62,46 @@ export default function Components(props) {
                   src="/img/nala/recent3.jpg"
                   className={navImageClasses}
                   width="100%" />
+                  <br/>
+                  <br/>
             <img  alt="..."
                   src="/img/nala/recent4.jpg"
                   className={navImageClasses}
                   width="100%" />
+                  <br/>
+                  <br/>
           {/* </GridItem>
           <GridItem xs={12} sm={12} md={4} className={classes.navWrapper}> */}
             <img  alt="..."
                   src="/img/nala/recent5.jpg"
                   className={navImageClasses}
                   width="100%" />
+                  <br/>
+                  <br/>
             <img  alt="..."
                   src="/img/nala/recent6.jpg"
                   className={navImageClasses}
                   width="100%" />
+                  <br/>
+                  <br/>
             <img  alt="..."
                   src="/img/nala/quincy2/dark1.jpg"
                   className={navImageClasses}
                   width="100%" />
+                  <br/>
+                  <br/>
             <img  alt="..."
                   src="/img/nala/quincy2/dark2.jpg"
                   className={navImageClasses}
                   width="100%" />
+                  <br/>
+                  <br/>
             <img  alt="..."
                   src="/img/nala/quincy2/dark3.jpg"
                   className={navImageClasses}
                   width="100%" />
+                  <br/>
+                  <br/>
             <img  alt="..."
                   src="/img/nala/quincy2/dark4.jpg"
                   className={navImageClasses}
