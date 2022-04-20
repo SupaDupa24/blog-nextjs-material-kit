@@ -45,10 +45,14 @@ export default function ProfilePage(props) {
         {...rest}
       />
      {/* <Parallax small filter image="/img/leafwall2.jpg" /> */}
-     <SectionCarousel />
+      <SectionCarousel /> 
+     
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div>
           <div className={classes.container}>
+            <div className={classes.homeVid}>
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/0kM0Td-j5Fc?&autoplay=1&mute=1"  title="Sugar Cookie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={6}>
                 <div className={classes.profile}>

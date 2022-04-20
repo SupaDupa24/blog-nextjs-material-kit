@@ -63,6 +63,11 @@ const profilePageStyle = {
     margin: "20px auto 50px auto",
     textAlign: "center",
   },
+
+  homeVid:{
+    display: "block",
+    textAlign: "center",
+  }
 };
 
 export default profilePageStyle;
