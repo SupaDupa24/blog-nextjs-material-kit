@@ -52,6 +52,11 @@ export default function ProfilePage(props) {
           <div className={classes.container}>
             <div className={classes.homeVid}>
               <iframe width="100%" height="315" src="https://www.youtube.com/embed/0kM0Td-j5Fc?&autoplay=1&mute=1"  title="Sugar Cookie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             </div>
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={6}>
