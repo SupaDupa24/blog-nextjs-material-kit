@@ -61,6 +61,9 @@ export default function Components(props) {
             <br />
           <h1>BTS Nala Bonae Juneteenth Performance</h1>
             <iframe className={classes.title} width="100%" height="360" src="https://www.youtube.com/embed/PxThlzrS1VI" title="YouTube video player" frameborder="2px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br />
+          <h1>Nala Bonae Jazz Festival Recap Performance</h1>
+            <iframe className={classes.title} width="100%" height="360" src="https://www.youtube.com/embed/4a3BcKt4uiQ" title="YouTube video player" frameborder="2px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
      
