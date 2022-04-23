@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import App from "next/app";
 import Head from "next/head";
 import Router from "next/router";
+import ReactGA from 'react-ga';
 
 
 import PageChange from "components/PageChange/PageChange.js";
@@ -29,7 +30,14 @@ Router.events.on("routeChangeError", () => {
 
 
 export default class MyApp extends App {
+  
+  setGA = () => {
+    ReactGA.initialize('G-3HNYT51H7H');
+    ReactGA.pageview('Init page view');
+  };
+
   componentDidMount() {
+    this.setGA();
     let comment = document.createComment(`created by DeQuan Sanders`
 
 
