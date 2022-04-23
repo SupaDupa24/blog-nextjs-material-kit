@@ -38,7 +38,7 @@ export default function Components(props) {
         }}
         {...rest}
       />
-      <Parallax image="/img/nala/quincy2/banner.jpg">
+      <Parallax image="/img/leafwall2.jpg">
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
