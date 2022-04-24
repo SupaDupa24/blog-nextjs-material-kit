@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import App from "next/app";
 import Head from "next/head";
 import Router from "next/router";
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 
 import PageChange from "components/PageChange/PageChange.js";
@@ -33,7 +33,7 @@ export default class MyApp extends App {
   
   setGA = () => {
     ReactGA.initialize('G-3HNYT51H7H');
-    ReactGA.pageview('Init page view');
+    ReactGA.send('/home/videos/music/gallery/contact');
   };
 
   componentDidMount() {
