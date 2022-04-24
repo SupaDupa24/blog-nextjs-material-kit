@@ -33,7 +33,7 @@ export default class MyApp extends App {
   
   setGA = () => {
     ReactGA.initialize('G-3HNYT51H7H');
-    ReactGA.send('/home/videos/music/gallery/contact');
+    ReactGA.send('pageview');
   };
 
   componentDidMount() {
