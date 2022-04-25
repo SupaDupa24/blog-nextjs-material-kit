@@ -29,6 +29,7 @@ class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
           <link href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap" rel="stylesheet"link />
+          <link href="https://www.dafontfree.net/embed/ZXhvY2V0LWhlYXZ5JmRhdGEvMS9lLzUyOS9maWxtcy5FWEhfX19fXy50dGY" rel="stylesheet" type="text/css"/>
           <link href="//db.onlinewebfonts.com/c/20143c892228cf6a5a1510b56d583dca?family=Exocet" rel="stylesheet" type="text/css"/>
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5348558113849875"
      crossorigin="anonymous"></script> 

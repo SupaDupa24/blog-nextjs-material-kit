@@ -10,7 +10,7 @@ const componentsStyle = {
   bigTitle: {
     fontSize: '6rem',
     textShadow: '3px 3px 3px #CECECE',
-    fontFamily: 'Exocet, exocet, sans-serif',
+    fontFamily: 'Exocet, exocet-heavy, exocet, Six Caps',
     textAlign: 'center'
   },
 
