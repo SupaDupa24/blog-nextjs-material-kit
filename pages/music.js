@@ -37,10 +37,13 @@ export default function Components(props) {
         }}
         {...rest}
       />
-      <Parallax image="/img/leafwall2.jpg">
+      <Parallax image="/img/nala/quincy2/banner.jpg">
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
+              <br />
+              <br />
+              <br />
               <div className={classes.brand}>
                 <h1 className={classes.title}>Music</h1>
                 <h3 className={classes.subtitle}>

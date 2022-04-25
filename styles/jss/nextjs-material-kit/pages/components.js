@@ -11,7 +11,7 @@ const componentsStyle = {
     fontWeight: "600",
     display: "inline-block",
     position: "relative",
-    color: "#D10000",
+    color: "whiteSmoke",
     fontFamily: 'Six Caps'
   },
   img:{
@@ -24,7 +24,7 @@ const componentsStyle = {
     fontSize: "3em",
     maxWidth: "510px",
     margin: "10px 0 0",
-    color: "#D10000",
+    color: "whiteSmoke",
     fontFamily: 'Six Caps'
   },
   h1:{

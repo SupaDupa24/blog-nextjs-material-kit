@@ -70,7 +70,9 @@ export default function LandingPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-        <SectionCarousel />
+        <br />
+        <br />
+        <br />
           {/* <ProductSection />
           <TeamSection /> 
           <WorkSection /> */}
@@ -84,6 +86,7 @@ export default function LandingPage(props) {
             {/* </GridItem>
 
           </GridContainer> */}
+          <SectionCarousel />
         </div>
       </div>
       <Footer />

@@ -134,16 +134,16 @@ export default function ProfilePage(props) {
                       tabContent: (
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={4}>
-                            <img
+                            {/* <img
                               alt="..."
                               src="/img/nala/perform.jpg"
                               className={navImageClasses}
-                            />
-                            <img
+                            /> */}
+                            {/* <img
                               alt="..."
                               src="/img/nala/nala10.jpg"
                               className={navImageClasses}
-                            />
+                            /> */}
                             <img
                               alt="..."
                               src="/img/nala/stage.jpg"

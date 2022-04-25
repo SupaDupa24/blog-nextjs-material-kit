@@ -38,20 +38,23 @@ export default function Components(props) {
         }}
         {...rest}
       />
-      <Parallax image="/img/leafwall2.jpg">
-        <div className={classes.container}>
-          <GridContainer>
-            <GridItem>
-              <div className={classes.brand}>
-                <h1 className={classes.title}>Gallery</h1>
-                <h3 className={classes.subtitle}>
-                  Photos
-                </h3>
-              </div>
-            </GridItem>
-          </GridContainer>
+      
+      <Parallax image="/img/nala/quincy2/banner.jpg">
+      <div className={classes.container}>
+                <GridContainer>
+                  <GridItem>
+                    <div className={classes.brand}>
+                      <h1 className={classes.title}>Gallery</h1>
+                      <h3 className={classes.subtitle}>
+                        Photos
+                      </h3>
+                    </div>
+                  </GridItem>
+                </GridContainer>
         </div>
-      </Parallax>
+      </Parallax>  
+        
+      
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
