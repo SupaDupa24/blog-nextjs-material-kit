@@ -6,6 +6,14 @@ const componentsStyle = {
     color: "#D10000",
     textAlign: "left",
   },
+
+  bigTitle: {
+    fontSize: '6rem',
+    textShadow: '3px 3px 3px #CECECE',
+    fontFamily: 'Exocet',
+    textAlign: 'center'
+  },
+
   title: {
     fontSize: "4.2rem",
     fontWeight: "600",

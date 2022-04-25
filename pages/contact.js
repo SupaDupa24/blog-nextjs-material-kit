@@ -46,11 +46,12 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter responsive image="/img/leafwall2.jpg">
+      <Parallax filter responsive image="/img/nala/quincy2/banner.jpg">
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Nala Bonae Entertainment</h1>
+              <h1 className={classes.bigTitle}>NALA BONAE</h1>
+              <h1 className={classes.title}>Contact</h1>
               <h4>
                 This is my page where I do, show or talk about what I want to talk about. Stay tuned for updates weekly!
               </h4>

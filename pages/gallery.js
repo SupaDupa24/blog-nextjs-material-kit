@@ -44,6 +44,7 @@ export default function Components(props) {
                 <GridContainer>
                   <GridItem>
                     <div className={classes.brand}>
+                    <h1 className={classes.bigTitle}>NALA BONAE</h1>
                       <h1 className={classes.title}>Gallery</h1>
                       <h3 className={classes.subtitle}>
                         Photos
