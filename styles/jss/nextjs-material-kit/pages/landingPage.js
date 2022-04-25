@@ -15,7 +15,7 @@ const landingPageStyle = {
   bigTitle: {
     fontSize: '7rem',
     textShadow: '3px 3px 3px #CECECE',
-    fontFamily: 'Exocet',
+    fontFamily: 'Exocet, exocet, sans-serif',
     textAlign: 'center',
     
   },
