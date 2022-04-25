@@ -33,7 +33,7 @@ class MyDocument extends Document {
      crossorigin="anonymous"></script> 
 
         </Head>
-        <body>
+        <body style={{backgroundColor: "black"}}>
           <div id="page-transition"></div>
           <Main />
           <NextScript />

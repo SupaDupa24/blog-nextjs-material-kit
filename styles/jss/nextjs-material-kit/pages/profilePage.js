@@ -11,8 +11,8 @@ const profilePageStyle = {
       width: "100%",
       margin: "0 auto",
       transform: "translate3d(0, -50%, 0)",
-      fontFamily: 'Six Caps'
-      
+      fontFamily: 'Six Caps',
+      backgroundColor: 'black'
     },
   },
   description: {
@@ -27,7 +27,7 @@ const profilePageStyle = {
   },
   ...imagesStyle,
   main: {
-    background: "black",
+    backgroundColor: "black",
     position: "relative",
     zIndex: "3",
   },
@@ -48,6 +48,9 @@ const profilePageStyle = {
     fontSize: "8em"
     
   },
+
+
+
   socials: {
     marginTop: "0",
     width: "100%",
