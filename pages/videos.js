@@ -54,6 +54,9 @@ export default function Components(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
+          <h1>Nala Bonae - Sugar Cookie</h1>
+            <iframe className={classes.title} width="100%" height="315" src="https://www.youtube.com/embed/0kM0Td-j5Fc?&autoplay=1&mute=1"  title="Sugar Cookie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br />
           <h1>Nala Bonae - No Boys Allowed</h1>
             <iframe className={classes.title} width="100%" height="360" src="https://www.youtube.com/embed/_1izTShmbb4" title="YouTube video player" frameborder="2px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <br />
