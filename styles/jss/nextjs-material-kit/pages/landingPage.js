@@ -6,22 +6,38 @@ const landingPageStyle = {
     color: "#D10000",
     ...container,
   },
+
+  bigTainer: {
+    display: "flex",
+    justifyContent: "center"
+  },
+
+  bigTitle: {
+    fontSize: '7rem',
+    textShadow: '3px 3px 3px #CECECE',
+    fontFamily: 'Exocet',
+    textAlign: 'center',
+    
+  },
+
+
   title: {
     ...title,
     display: "inline-block",
     position: "relative",
     marginTop: "30px",
     minHeight: "32px",
-    color: "#D10000",
+    color: "whiteSmoke",
     textDecoration: "none",
-    fontFamily: "'Neonderthaw', cursive",
+    fontFamily: "Six Caps",
     animation: "glow 1s ease-in-out infinite alternate"
   },
   button: {
     display: "flex",
     justifyContent: "center",
     textDecoration: "none",
-    color:"white"
+    color:"white",
+    
   },
 
   // @keyframes title {
@@ -36,7 +52,7 @@ const landingPageStyle = {
   subtitle: {
     fontSize: "1.313rem",
     maxWidth: "500px",
-    color: "#D10000",
+    color: "whiteSmoke",
     margin: "10px auto 0",
   },
   main: {

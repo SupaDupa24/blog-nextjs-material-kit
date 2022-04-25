@@ -39,7 +39,10 @@ const profilePageStyle = {
   },
 
   bigTitle: {
-    
+    fontSize: '7rem',
+    textShadow: '3px 3px 3px #CECECE',
+    fontFamily: 'Exocet',
+    textAlign: 'center'
   },
 
   title: {

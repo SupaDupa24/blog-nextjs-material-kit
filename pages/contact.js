@@ -50,9 +50,11 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.bigTitle}>NALA BONAE</h1>
-              <h1 className={classes.title}>Contact</h1>
-              <h4>
+              {/* <div className={classes.bigTainer}>
+                <h1 className={classes.bigTitle}>NALA BONAE</h1>
+              </div> */}
+                <h1 className={classes.title}>Contact</h1>
+              <h4 className={classes.subtitle}>
                 This is my page where I do, show or talk about what I want to talk about. Stay tuned for updates weekly!
               </h4>
               <br />
