@@ -9,7 +9,7 @@ const componentsStyle = {
 
   bigTitle: {
     fontSize: '6rem',
-    textShadow: '3px 3px 3px #CECECE',
+    textShadow: '3px 3px 3px black',
     fontFamily: 'Exocet, exocet-heavy, exocet, Six Caps',
     textAlign: 'center'
   },
@@ -20,8 +20,21 @@ const componentsStyle = {
     display: "inline-block",
     position: "relative",
     color: "whiteSmoke",
-    fontFamily: 'Six Caps'
+    fontFamily: 'Six Caps',
+    textShadow: '3px 3px 3px black'
   },
+
+  otherTitle: {
+    fontSize: "4.2rem",
+    fontWeight: "600",
+    display: "inline-block",
+    position: "relative",
+    color: " #D10000",
+    fontFamily: 'Six Caps',
+    textShadow: '3px 3px 3px #CECECE'
+  },
+
+
   img:{
     padding: "2em"
   },
@@ -33,7 +46,8 @@ const componentsStyle = {
     maxWidth: "510px",
     margin: "10px 0 0",
     color: "whiteSmoke",
-    fontFamily: 'Six Caps'
+    fontFamily: 'Six Caps',
+    textShadow: '3px 3px 3px black'
   },
   h1:{
     color: "#D10000",

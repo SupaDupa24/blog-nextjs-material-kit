@@ -55,7 +55,7 @@ export default function LandingPage(props) {
               </div> */}
                 <h1 className={classes.title}>Contact</h1>
               <h4 className={classes.subtitle}>
-                This is my page where I do, show or talk about what I want to talk about. Stay tuned for updates weekly!
+              For booking or for all other business inquiries...
               </h4>
               <br />
               <Button

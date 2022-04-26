@@ -30,7 +30,8 @@ const landingPageStyle = {
     color: "whiteSmoke",
     textDecoration: "none",
     fontFamily: "Six Caps",
-    animation: "glow 1s ease-in-out infinite alternate"
+    animation: "glow 1s ease-in-out infinite alternate",
+    textShadow: '3px 3px 3px black'
   },
   button: {
     display: "flex",
@@ -54,6 +55,7 @@ const landingPageStyle = {
     maxWidth: "500px",
     color: "whiteSmoke",
     margin: "10px auto 0",
+    textShadow: '3px 3px 3px black'
   },
   main: {
     background: "black",

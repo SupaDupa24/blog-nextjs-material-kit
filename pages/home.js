@@ -96,78 +96,69 @@ export default function ProfilePage(props) {
                   alignCenter
                   color="danger"
                   tabs={[
+                    // {
+                    //   tabButton: "Studio",
+                    //   tabIcon: Camera,
+                    //   tabContent: (
+                    //     <GridContainer justify="center">
+                    //       <GridItem xs={12} sm={12} md={4}>
+                    //         <img
+                    //           alt="..."
+                    //           src="/img/nala/noboys.jpg"
+                    //           className={navImageClasses}
+                    //         />
+                    //         <img
+                    //           alt="..."
+                    //           src="/img/nala/nala1.jpg"
+                    //           className={navImageClasses}
+                    //         />
+                    //       </GridItem>
+                    //       <GridItem xs={12} sm={12} md={4}>
+                    //         <img
+                    //           alt="..."
+                    //           src="/img/nala/recent1.jpg"
+                    //           className={navImageClasses}
+                    //         />
+                    //         <img
+                    //           alt="..."
+                    //           src="/img/nala/quincy/bonae1.jpg"
+                    //           className={navImageClasses}
+                    //         />
+                    //       </GridItem>
+                    //     </GridContainer>
+                    //   ),
+                    // },
+                    // {
+                    //   tabButton: "Work",
+                    //   tabIcon: Palette,
+                    //   tabContent: (
+                    //     <GridContainer justify="center">
+                    //       <GridItem xs={12} sm={12} md={4}>
+                            
+                    //         <img
+                    //           alt="..."
+                    //           src="/img/nala/stage.jpg"
+                    //           className={navImageClasses}
+                    //         />
+                    //       </GridItem>
+                    //       <GridItem xs={12} sm={12} md={4}>
+                    //         <img
+                    //           alt="..."
+                    //           src="/img/nala/juneteenthsolo.jpg"
+                    //           className={navImageClasses}
+                    //         />
+                    //         <img
+                    //           alt="..."
+                    //           src="/img/nala/juneteenthgroup.jpg"
+                    //           className={navImageClasses}
+                    //         />
+                    //       </GridItem>
+                    //     </GridContainer>
+                    //   ),
+                    // },
                     {
-                      tabButton: "Studio",
+                      tabButton: "Articles",
                       tabIcon: Camera,
-                      tabContent: (
-                        <GridContainer justify="center">
-                          <GridItem xs={12} sm={12} md={4}>
-                            <img
-                              alt="..."
-                              src="/img/nala/noboys.jpg"
-                              className={navImageClasses}
-                            />
-                            <img
-                              alt="..."
-                              src="/img/nala/nala1.jpg"
-                              className={navImageClasses}
-                            />
-                          </GridItem>
-                          <GridItem xs={12} sm={12} md={4}>
-                            <img
-                              alt="..."
-                              src="/img/nala/recent1.jpg"
-                              className={navImageClasses}
-                            />
-                            <img
-                              alt="..."
-                              src="/img/nala/quincy/bonae1.jpg"
-                              className={navImageClasses}
-                            />
-                          </GridItem>
-                        </GridContainer>
-                      ),
-                    },
-                    {
-                      tabButton: "Work",
-                      tabIcon: Palette,
-                      tabContent: (
-                        <GridContainer justify="center">
-                          <GridItem xs={12} sm={12} md={4}>
-                            {/* <img
-                              alt="..."
-                              src="/img/nala/perform.jpg"
-                              className={navImageClasses}
-                            /> */}
-                            {/* <img
-                              alt="..."
-                              src="/img/nala/nala10.jpg"
-                              className={navImageClasses}
-                            /> */}
-                            <img
-                              alt="..."
-                              src="/img/nala/stage.jpg"
-                              className={navImageClasses}
-                            />
-                          </GridItem>
-                          <GridItem xs={12} sm={12} md={4}>
-                            <img
-                              alt="..."
-                              src="/img/nala/juneteenthsolo.jpg"
-                              className={navImageClasses}
-                            />
-                            <img
-                              alt="..."
-                              src="/img/nala/juneteenthgroup.jpg"
-                              className={navImageClasses}
-                            />
-                          </GridItem>
-                        </GridContainer>
-                      ),
-                    },
-                    {
-                      tabButton: "Favorite",
-                      tabIcon: Favorite,
                       tabContent: (
                         <GridContainer justify="center">
                           {/* <GridItem xs={12} sm={12} md={4}>

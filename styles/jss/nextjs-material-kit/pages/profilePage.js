@@ -53,7 +53,8 @@ const profilePageStyle = {
     minHeight: "32px",
     textDecoration: "none",
     fontFamily: 'Six Caps',
-    fontSize: "8em"
+    fontSize: "8em",
+    textShadow: '3px 3px 3px #CECECE'
     
   },
 

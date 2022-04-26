@@ -110,6 +110,84 @@ export default function Components(props) {
                   src="/img/nala/quincy2/dark4.jpg"
                   className={navImageClasses}
                   width="100%" />
+                  <br/>
+                  <br/>
+            <img  alt="..."
+                  src="/img/nala/quincy2/sugar2.jpg"
+                  className={navImageClasses}
+                  width="100%" />
+                  <br/>
+                  <br/>
+            <img  alt="..."
+                  src="/img/nala/quincy2/sugar3.jpg"
+                  className={navImageClasses}
+                  width="100%" />
+                  <br/>
+                  <br/>
+            <img  alt="..."
+                  src="/img/nala/quincy2/sugar4.jpg"
+                  className={navImageClasses}
+                  width="100%" />
+                  <br/>
+                  <br/>
+            <img  alt="..."
+                  src="/img/nala/quincy2/sugar5.jpg"
+                  className={navImageClasses}
+                  width="100%" />
+                  <br/>
+                  <br/>
+            <img  alt="..."
+                  src="/img/nala/quincy2/sugar6.jpg"
+                  className={navImageClasses}
+                  width="100%" />
+                  <br/>
+                  <br/>
+            <img  alt="..."
+                  src="/img/nala/quincy2/sugar7.jpg"
+                  className={navImageClasses}
+                  width="100%" />
+                  <br/>
+                  <br/>
+            <img  alt="..."
+                  src="/img/nala/noboys.jpg"
+                  className={navImageClasses}
+                  width="100%" />
+                  <br/>
+                  <br/>
+            <img  alt="..."
+                  src="/img/nala/nala1.jpg"
+                  className={navImageClasses}
+                  width="100%" />
+                  <br/>
+                  <br/>
+            <img  alt="..."
+                  src="/img/nala/recent1.jpg"
+                  className={navImageClasses}
+                  width="100%" />
+                  <br/>
+                  <br/>
+            <img  alt="..."
+                  src="/img/nala/quincy/bonae1.jpg"
+                  className={navImageClasses}
+                  width="100%" />
+                  <br/>
+                  <br/>
+            <img  alt="..."
+                  src="/img/nala/stage.jpg"
+                  className={navImageClasses}
+                  width="100%" />
+                  <br/>
+                  <br/>
+            <img  alt="..."
+                  src="/img/nala/juneteenthsolo.jpg"
+                  className={navImageClasses}
+                  width="100%" />
+                  <br/>
+                  <br/>
+            <img  alt="..."
+                  src="/img/nala/juneteenthgroup.jpg"
+                  className={navImageClasses}
+                  width="100%" />
           </div>
           {/* </GridItem>
         </GridContainer> */}
