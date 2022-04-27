@@ -9,6 +9,10 @@ class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <meta name="theme-color" content="#000000" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+          <meta name="description" content="Nala, Bonae, Nala Bonae, artist, nalabonae.com" />
+          <meta name="keywords" content="Nala, Bonae, Nala Bonae, artist, nalabonae.com" />
+          <meta name="robots" content="index, follow"/>
           <link rel="shortcut icon" href="/img/sugar.jpg" />
           <link
             rel="apple-touch-icon"
