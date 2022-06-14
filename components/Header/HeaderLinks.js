@@ -37,6 +37,17 @@ export default function HeaderLinks(props) {
           }}
           buttonIcon={Apps}
           dropdownList={[ */}
+      {/* <ListItem className={classes.listItem}>
+        <Button
+          href="#about"
+          color="transparent"
+          
+          className={classes.navLink}
+        >
+          
+          About
+        </Button>
+      </ListItem> */}
       <ListItem className={classes.listItem}>
         <Button
           href="/videos"

@@ -70,26 +70,30 @@ export default function ProfilePage(props) {
                   </div>
                   <div className={classes.name}>
                     <h3 className={classes.title}>Nala Bonae</h3>
-                    <h6>ARTIST</h6>
-                    <Button href="https://twitter.com/BonaeNala" justIcon link className={classes.margin5}>
-                      <i className={"fab fa-twitter"} />
-                    </Button>
-                    <Button href="https://www.instagram.com/nalabonae/" justIcon link className={classes.margin5}>
-                      <i className={"fab fa-instagram"} />
-                    </Button>
-                    <Button href="https://www.facebook.com/Mutt.Baby" justIcon link className={classes.margin5}>
-                      <i className={"fab fa-facebook"} />
-                    </Button>
+                    <section id='about'>
+                      <h6>ABOUT NALA BONAE</h6>
+                      <Button href="https://twitter.com/BonaeNala" justIcon link className={classes.margin5}>
+                        <i className={"fab fa-twitter"} />
+                      </Button>
+                      <Button href="https://www.instagram.com/nalabonae/" justIcon link className={classes.margin5}>
+                        <i className={"fab fa-instagram"} />
+                      </Button>
+                      <Button href="https://www.facebook.com/Mutt.Baby" justIcon link className={classes.margin5}>
+                        <i className={"fab fa-facebook"} />
+                      </Button>
+                      </section>
+                    </div>
+                    
                   </div>
-                </div>
-              </GridItem>
-            </GridContainer>
-            <div className={classes.description}>
-              <p>
-              Nala Bonae is A Singer/Songwriter/Producer/Dancer/<br />
-              Choreographer/Actor located in Dallas,Tx with the combination of sounds such as, Rock,Pop,Funk,Soul,Dance .Nala Bonae has Opened up for Multiple Artist/Shows ,just to name a few…Chris Brown,Monica,Bryson Tiller, Wendy Williams Show,Kim Burrell,Dawn Richard,Kizz Daniel,B2K Millennium Tour,American Crime “ABC”,etc. Nala Bonae has been performing all over the world since the age of Four. With her Powerful voice and her Powerhouse Dance moves,her creativity/Fashion/Visuals, she’s definitely the Definition of a Rockstar..{" "}
-              </p>
-            </div>
+                </GridItem>
+              </GridContainer>
+              <div className={classes.description}>
+                <p>
+                Nala Bonae is A Singer/Songwriter/Producer/Dancer/<br />
+                Choreographer/Actor located in Dallas,Tx with the combination of sounds such as, Rock,Pop,Funk,Soul,Dance .Nala Bonae has Opened up for Multiple Artist/Shows ,just to name a few…Chris Brown,Monica,Bryson Tiller, Wendy Williams Show,Kim Burrell,Dawn Richard,Kizz Daniel,B2K Millennium Tour,American Crime “ABC”,etc. Nala Bonae has been performing all over the world since the age of Four. With her Powerful voice and her Powerhouse Dance moves,her creativity/Fashion/Visuals, she’s definitely the Definition of a Rockstar..{" "}
+                </p>
+              </div>
+              
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
                 <NavPills

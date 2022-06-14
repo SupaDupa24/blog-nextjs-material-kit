@@ -39,7 +39,7 @@ class MyDocument extends Document {
      crossorigin="anonymous"></script> 
 
         </Head>
-        <body style={{backgroundColor: "black"}}>
+        <body style={{backgroundColor: "black",  scrollBehavior: "smooth"}}>
           <div id="page-transition"></div>
           <Main />
           <NextScript />
